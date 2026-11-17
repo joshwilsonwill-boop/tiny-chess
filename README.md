@@ -13,6 +13,23 @@ node budget.
 Deterministic: no clock, no unseeded randomness, so replayed trials
 play the same moves.
 
+## A win from the practice gauntlet
+
+Trial 0, game 1, vs the depth-2 house engine (Semi-Slav). The engine
+played White and finished it with f7f8=Q#:
+
+```
+8 . . ♚ . . ♕ . .
+7 . . . . ♕ . . .
+6 . . ♟ . . . . .
+5 . . . ♟ . . . .
+4 ♟ . . . . . . .
+3 ♙ . . . ♗ ♝ . .
+2 . ♙ . . . . . .
+1 ♖ . . . ♔ ♗ . .
+  a b c d e f g h
+```
+
 ## Run it
 
 The engine talks to the make.fun env over HTTP. With the env running:
